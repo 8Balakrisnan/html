@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    
+</head>
+<body>
+    <header>
+        <center>
+        <h1>How To learning <span style="color: orangered;">HTML</span>|
+                            <span style="color: lightseagreen;">Css</span> | 
+                            <span style="color: orange;">JavaScript</span></h1>
+        </center>
+        <hr>
+        <nav aria-label="primery-navigation">
+            <center>
+            <table border="0" cellpadding="0"  cellspacing="0"  hight="720" Width="1080">
+                <tr>
+                    <th><span><a href="" style="text-decoration:none;color: green;">Home</a></span></th><th>|</th> 
+                    <th><span><a href="" style="text-decoration:none;color: orangered;">Html</a></span></th><th>|</th>
+                    <th><span><a href="" style="text-decoration:none;color:lightseagreen;">Css</a></span></th><th>|</th>
+                    <th><span><a href="" style="text-decoration:none;color: orange;">JavaScript</a></span></th>
+                </tr>
+            </table>
+            </center>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <center>
+        <img src="RMS_Titanic_3.jpg" alt="html_css_js"  width="50%" loading="lazy">   
+        </center>
+        <h1>HTML(<span style="color:orangered;">Hypertext Markup Language</span>)</h1>
+        <aside style="background-color: lightgray;">
+            <summary>
+                <p>HTML is the standard markup language used to create and structure content on the web. It is used to define the structure and layout of web pages using a series of elements and tags. These elements include headings, paragraphs, links, images, forms, and more. HTML provides the foundational structure for a webpage, defining how different elements should be organized and displayed in a browser.</p>
+            </summary>    
+        </aside>
+        <h1>CSS(<span style="color: lightseagreen;">Style Sheet</span>)</h1>
+        <p>CSS is a stylesheet language used to control the presentation and layout of HTML documents. It allows web designers and developers to apply styles such as colors, fonts, spacing, and positioning to HTML elements. By separating the content (HTML) from its presentation (CSS), developers can create consistent and visually appealing designs across multiple web pages. CSS follows a cascading order of rules, where styles can be inherited or overridden based on specificity and other factors.</p>
+        <h1>JavaScript(<span style="color: orange;">JS</span>)</h1>
+        <p>JavaScript is a versatile programming language primarily used for adding interactivity and dynamic behavior to web pages. It enables developers to create features like animations, form validation, interactive forms, and real-time updates without requiring users to manually refresh the page. JavaScript can be embedded directly into HTML documents or included from external files. It is widely supported by modern web browsers and has evolved to be used not only on the front end (client-side) but also on the back end (server-side) using platforms like Node.js.</p>
+        <p>Together, <mark>HTML</mark>,<mark>CSS</mark>, and <mark>JavaScript</mark> form the core technologies for building and styling websites, allowing developers to create engaging, user-friendly, and functional web experiences.</p>
+
+    </main>
+    
+    <footer>
+        <hr>
+            <h2 style="color: brown; text-align: center;" >Contact Me</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset style="height: 400px; width: 500px;margin-left: 30%;border-color: green;">
+                    <legend style="color: blue; font-weight:bold;width: 93px;padding: 2px;margin-left: calc(50% - 35px - 8px);">Personel Info</legend>
+                
+                    <p>
+                 <label for="firsName">First Name:</label>
+                 <input type="text" style="margin-left: 22%;" name="firsName" id="firsName" placeholder="first name" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" style="margin-left: 23%;" name="lastName" id="firsName" placeholder="last name" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" style="margin-left: 25%;" name="password" id="password" placeholder="your password"  required>
+                </p>
+                <p>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" style="margin-left: 19%;" name="phone" id="phone" placeholder="your phone number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                </p>
+                <p>
+                    <label for="decade">Fav decade:</label>
+                    <input type="number" style="margin-left: 23%;" name="decade" id="decade" min="1950" max="2020" value="" step="10">
+                </p>
+                <p>
+                    <label for="content">Fav content:</label>
+                    <select name="content" id="content">
+                        <option value="select" selected>select</option>
+                    <optgroup label="Forntend">
+                        <option value="HTML">HTML</option>
+                    </optgroup>
+                    <optgroup label="stylesheet">
+                        <option value="CSS">CSS</option>
+                    </optgroup>
+                    <optgroup label="Script">    
+                        <option value="JavaScript">JavaScript</option>
+                    </optgroup>    
+                    </select>
+                    <input type="text" name="content" id="content" list="content-list">
+                    <datalist id="content-list">
+                        <option value="select" selected>
+                        <option value="HTML">
+                        <option value="CSS">
+                        <option value="JavaScript">
+                <p>
+                    <label for="massage">Massage:</label>
+                </p>        
+                    <textarea name="massage"rows="4" cols="50" placeholder="your massage"></textarea>
+                <p>
+                    <button type="submit">Send</button>
+                    <button type="button" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </p>    
+
+                
+            </fieldset>
+            </form>
+    </footer>
+</body>
+</html>
